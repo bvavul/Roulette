@@ -3,14 +3,9 @@ head{
 }
 
 body{
-	font-family: sans-serif;
 	background-color:#01DF01;
-	font-style: symbol;
+	font-family: fantasy;
 	font-size: 50.4567px;
-	color: blue;
+	color: #81DBB8;
 }
-button {
-	font-size: 45;
-	color: white;
-	
-}        
+      

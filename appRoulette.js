@@ -2,6 +2,7 @@ var computerChoice= "";
 var userStreak = "";
 function losingchance() {
 	computerChoice = Math.floor(Math.random()*6);
+		userStreak++;
 		if(computerChoice === 1) {
 			computerChoice = "chosen";
 				alert("You won! Your streak is " + userStreak + " wins.");
@@ -25,6 +26,7 @@ function losingchance() {
 		else {
 			computerChoice = "lost";
 				alert("You lost. Please press the button and try again.");
+				userStreak = "-1";
 		}
 }
 function userScoreDisplay() {
