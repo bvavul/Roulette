@@ -22,8 +22,11 @@ function losingchance() {
 			computerChoice = "chosen";
 				alert("You won! Your streak is " + userStreak + " wins.");
 		}
-		if(computerChoice === 6){
+		else{
 			computerChoice = "lost";
-				alert("You have lost. Press the button and try again.");
+				alert("You lost. Please press the button and try again.");
 		}
+}
+function userScoreDisplay() {
+	document.getElementById('score').innerHTML = "Your winning streak is " + userStreak + ".";
 }
