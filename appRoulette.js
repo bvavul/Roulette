@@ -23,8 +23,8 @@ function losingchance() {
 			computerChoice = "chosen";
 				displayUserScore(userStreak);
 		}
-		if(computerChoice === 6) {
-			comptuerChoice = "lost";
+		else {
+			computerChoice = "lost";
 				userStreak = 0;
 		}
 }
