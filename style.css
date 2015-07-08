@@ -1,14 +1,12 @@
 
-
 body{
-	font-family: symbol;
+	font-style: symbol;
 	font-style: italic;
 	text-align: center;
 	background-color: black;
 	font-size: 90px;
 	color: #A6F7D7;
     outline: #A6F7D7;	
-	text-shadow: 1px 1px 1px #A6F7D7;
     
 }
     
