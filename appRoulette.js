@@ -1,6 +1,7 @@
 var computerChoice= "";
 var userStreak = "";
 function losingchance() {
+	userStreak++;
 	computerChoice = Math.floor(Math.random()*6);
 		if(computerChoice === 1) {
 			computerChoice = "chosen";
@@ -23,14 +24,11 @@ function losingchance() {
 				displayUserScore(userStreak);
 		}
 		if(computerChoice === 6) {
-			computerChoice = "lost";
+			comptuerChoice = "lost";
 				userStreak = 0;
-					alert("You have lost. Please try again. ");
 		}
-		document.getElementById('streak').innerHTML = "Your winning streak is " + userStreak + ".";
-		return;
 }
 
  window.onbeforeunload = function() {
         return "Dude, are you sure you want to leave? Think of the awesome streak you built up(It won't let you lose anyway.)";
-    };
+};

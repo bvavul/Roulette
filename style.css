@@ -1,12 +1,15 @@
 
+
 body{
-	font-style: symbol;
+	font-family: serif;
+	font-family: symbol, serif;
 	font-style: italic;
 	text-align: center;
 	font-size: 91px;
-	background-color: black;
+	background-image: url("http://images.alphacoders.com/538/53823.jpg");
 	color: #A6F7D7;
     outline: #A6F7D7;	
+	text-shadow: 4px 4px 4px #A6F7D7;
     
 }
     
