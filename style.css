@@ -3,10 +3,11 @@
 body{
 	text-align:center;
 	background-color: black;
-	font-family: fantasy;
+	font-family: fire-animation;
 	font-size: 90px;
 	color: #A6F7D7;
-    outline: #A6F7D7;
+    outline: #A6F7D7;	
+	text-shadow: 4px 4px 4px #A6F7D7;
     
 }
     
