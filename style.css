@@ -7,6 +7,9 @@ body{
 	font-size: 90px;
 	color: #A6F7D7;
     outline: #A6F7D7 dotted thick;
+.myElement {
+	-webkit-filter: blur(8px) grayscale (.5) opacity(.9) hue-rotate(120deg);
+}
     text-shadow:
     10px 10px 0 #000,
     10px 10px 0 #000,
