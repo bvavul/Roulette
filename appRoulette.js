@@ -29,3 +29,5 @@ function losingchance() {
 		document.getElementById('streak').innerHTML = "Your winning streak is " + userStreak + ".";
 		return;
 }
+
+localStorage.setItem(userStreak);
