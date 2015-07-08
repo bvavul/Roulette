@@ -9,19 +9,19 @@ function losingchance() {
 		}
 		if(computerChoice === 2) {
 			computerChoice = "chosen";
-				displayUserScore();
+				displayUserScore(userStreak);
 		}
 		if(computerChoice === 3) {
 			computerChoice = "chosen";
-				displayUserScore();
+				displayUserScore(userStreak);
 		}
 		if(computerChoice === 4) {
 			computerChoice = "chosen";
-				displayUserScore();
+				displayUserScore(userStreak);
 		}
 		if(computerChoice === 5) {
 			computerChoice = "chosen";
-				displayUserScore();
+				displayUserScore(userStreak);
 		}
 		if(computerChoice === 6) {
 			comptuerChoice = "lost";
