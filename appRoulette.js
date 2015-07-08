@@ -1,8 +1,8 @@
 var computerChoice= "";
 var userStreak = "";
 function losingchance() {
+	userStreak++;
 	computerChoice = Math.floor(Math.random()*6);
-		userStreak++;
 		if(computerChoice === 1) {
 			computerChoice = "chosen";
 				alert("You won! Your streak is " + userStreak + " wins.");
