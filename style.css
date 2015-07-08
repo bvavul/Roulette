@@ -9,10 +9,7 @@ body{
     outline: #A6F7D7;
     outline-style: solid;
     outline-width: 4px;
-    text-shadow:
-    10px 10px 0 #000,
-    10px 10px 0 #000,
-    10px 10px 0 #000,
-    10px 10px 0 #000;
+    outline: #A6F7D7 thick;
+	webkit-filter: blur(8px) grayscale (.5) opacity(.9) hue-rotate(120deg);
 }
-      
+    
