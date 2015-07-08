@@ -30,5 +30,5 @@ function losingchance() {
 }
 
  window.onbeforeunload = function() {
-        return "Dude, are you sure you want to leave? Think of the awesome streak you built up(It won't let you lose anyway.)";
+        return "Press the 'stay on page' button below. I put a brick wall so this won't refresh.";
 };
