@@ -28,6 +28,6 @@ function losingchance() {
 				userStreak = 0;
 		}
 }
-function displayUserScore() {
+var displayUserScore = function() {
 	document.getElementById('score').innerHTML = "Your winning streak is " + userStreak + ".";
-}
+};
