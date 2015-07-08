@@ -5,7 +5,7 @@ function losingchance() {
 	computerChoice = Math.floor(Math.random()*6);
 		if(computerChoice === 1) {
 			computerChoice = "chosen";
-				displayUserScore();
+				displayUserScore(userStreak);
 		}
 		if(computerChoice === 2) {
 			computerChoice = "chosen";
