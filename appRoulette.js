@@ -23,11 +23,16 @@ function losingchance() {
 				displayUserScore(userStreak);
 		}
 		if(computerChoice === 6) {
-			comptuerChoice = "lost";
+			computerChoice = "lost";
 				userStreak = 0;
+					alert("You have lost. Please try again. ");
 		}
 		document.getElementById('streak').innerHTML = "Your winning streak is " + userStreak + ".";
 		return;
 }
 
-localStorage.setItem(userStreak);
+localStorage.setItem('user', JSON.stringify({
+    userStreak = "userStreak"
+}));
+
+var user = JSON.parse(localStorage.getItem('user'));
