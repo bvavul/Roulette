@@ -26,9 +26,6 @@ function losingchance() {
 			comptuerChoice = "lost";
 				userStreak = 0;
 		}
+		document.getElementById('streak').innerHTML = "Your winning streak is " + userStreak + ".";
+		return;
 }
-var displayUserScore = function() {
-	userStreak++;
-	document.getElementById('streak').innerHTML = "Your winning streak is " + userStreak + ".";
-	return;
-};
