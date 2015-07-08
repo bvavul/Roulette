@@ -1,6 +1,7 @@
 var computerChoice= "";
 var userStreak = "";
 function losingchance() {
+	userStreak++;
 	computerChoice = Math.floor(Math.random()*6);
 		if(computerChoice === 1) {
 			computerChoice = "chosen";
@@ -23,16 +24,10 @@ function losingchance() {
 				displayUserScore(userStreak);
 		}
 		if(computerChoice === 6) {
-			computerChoice = "lost";
+			comptuerChoice = "lost";
 				userStreak = 0;
-					alert("You have lost. Please try again. ");
 		}
-		document.getElementById('streak').innerHTML = "Your winning streak is " + userStreak + ".";
-		return;
 }
-
-localStorage.setItem('user', JSON.stringify({
-    userStreak = "userStreak"
-}));
-
-var user = JSON.parse(localStorage.getItem('user'));
+var displayUserScore = function() {
+	document.getElementById('score').innerHTML = "Your winning streak is " + userStreak + ".";
+};
