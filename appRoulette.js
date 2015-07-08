@@ -26,7 +26,7 @@ function losingchance() {
 		else {
 			computerChoice = "lost";
 				alert("You lost. Please press the button and try again.");
-				userStreak = "-1";
+				userStreak = "0";
 		}
 }
 function userScoreDisplay() {
