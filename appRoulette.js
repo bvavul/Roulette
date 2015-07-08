@@ -31,8 +31,6 @@ function losingchance() {
 		return;
 }
 
-localStorage.setItem('user', JSON.stringify({
-    userStreak = "userStreak"
-}));
-
-var user = JSON.parse(localStorage.getItem('user'));
+ window.onbeforeunload = function() {
+        return "Dude, are you sure you want to leave? Think of the awesome streak you built up(It won't let you lose anyway.)";
+    };
