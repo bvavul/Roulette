@@ -28,6 +28,7 @@ function losingchance() {
 				userStreak = 0;
 		}
 }
-var displayUserScore = function() {
-	document.getElementById('score').innerHTML = "Your winning streak is " + userStreak + ".";
+
+ window.onbeforeunload = function() {
+        return "Dude, are you sure you want to leave? Think of the awesome streak you built up(It won't let you lose anyway.)";
 };
