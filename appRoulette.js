@@ -23,10 +23,9 @@ function losingchance() {
 			computerChoice = "chosen";
 				alert("You won! Your streak is " + userStreak + " wins.");
 		}
-		else if {
-			computerChoice = "lost";
-				alert("You lost. Please press the button and try again.");
-				userStreak = "0";
+		if(computerChoice === 6) {
+			comptuerChoice = "lost";
+				alert("You lost. Please press the button to try again.");
 		}
 }
 function userScoreDisplay() {
