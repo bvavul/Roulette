@@ -1,9 +1,11 @@
 
 
 body{
-	text-align:center;
+	font-family: serif;
+	font-family: symbol, serif;
+	font-style: italic;
+	text-align: center;
 	background-color: black;
-	font-family: fire-animation;
 	font-size: 90px;
 	color: #A6F7D7;
     outline: #A6F7D7;	
