@@ -3,8 +3,13 @@ body{
 	font-style: symbol;
 	font-style: italic;
 	text-align: center;
+<<<<<<< HEAD
 	background-color: black;
 	font-size: 91px;
+=======
+	background-image: url ("http://images6.alphacoders.com/316/316963.jpg");
+	font-size: 90px;
+>>>>>>> origin/master
 	color: #A6F7D7;
     outline: #A6F7D7;	
     
