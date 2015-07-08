@@ -7,8 +7,11 @@ body{
 	font-size: 90px;
 	color: #A6F7D7;
     outline: #A6F7D7;
-    outline-style: solid;
-    outline-width: 40000px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 50px;
+    margin: blue;
    
 }
     
