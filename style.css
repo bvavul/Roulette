@@ -6,7 +6,9 @@ body{
 	font-family: fantasy;
 	font-size: 90px;
 	color: #A6F7D7;
-    outline: #A6F7D7 dotted thick;
+    outline: #A6F7D7;
+    outline-style: solid;
+    outline-width: 4px;
     text-shadow:
     10px 10px 0 #000,
     10px 10px 0 #000,
