@@ -23,7 +23,7 @@ function losingchance() {
 			computerChoice = "chosen";
 				displayUserScore(userStreak);
 		}
-		else if(computerChoice === 5) {
+		else {
 			computerChoice = "chosen";
 				displayUserScore(userStreak);
 		}
@@ -33,3 +33,6 @@ window.onbeforeunload = function() {
     return "Press the 'stay on page' button below. I put a brick wall so this won't refresh(Due to glitches).";
 };
 
+var displayUserScore = function() {
+	document.getElementById('score').innerHTML = "Your streak is " + userStreak + ".";
+};
