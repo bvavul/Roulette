@@ -25,7 +25,8 @@ function lifeordeath() {
 		else {
 			computerChoice = "lost";
 				userStreak = 0;
-					displayUserScore(userStreak);
+				displayUserScore(userStreak);
+				alert("Gooood Morning. You died. Please try again.");
 		}
 }
 /* DO NOT USE
