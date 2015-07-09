@@ -12,7 +12,7 @@ body{
 	font-style: italic;
 	text-align: center;
 	font-size: 30px;
-	background-color:url("http://godlywoodstudio.org/wp-content/uploads/2014/11/Grey-website-background.png");
+	background-image: url("http://godlywoodstudio.org/wp-content/uploads/2014/11/Grey-website-background.png");
 	color: #A6F7D7;
     outline: #A6F7D7;
 }
