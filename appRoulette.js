@@ -26,7 +26,7 @@ function lifeordeath() {
 			computerChoice = "lost";
 				userStreak = 0;
 				displayUserScore(userStreak);
-				alert("Gooood Morning(Or afternoon. Or night.). You died a horrible, slow, painful death. Please try again.");
+				alert("Gooood Morning(Or afternoon. Or night.) You died a horrible, slow, painful death. Try not to visualize this. Oops, you might have already. Wanna hear a secret? Get to 100 streak and I'll tell you. Please try again.");
 		}
 }
 /* DO NOT USE
