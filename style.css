@@ -6,7 +6,14 @@ body{
 	background-color: black;
 	background-image: url("http://www.better2web.com/djfiles/screenshot1.png");
 	color: #A6F7D7;
-    outline: #A6F7D7;	
-	/*Look at My Name*/
+    outline: #A6F7D7;
 		}
+<<<<<<< HEAD
 oihrgweuhiregiurebburiohnehouefwhuoerguiegr'ldf noijerijongreijnoergoin43g
+=======
+
+form{
+	border-style: double;
+	border-color: #A6F7D7
+}
+>>>>>>> origin/master
