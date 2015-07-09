@@ -30,7 +30,7 @@ function losingchance() {
 }
 
 window.onbeforeunload = function() {
-    return "Press the 'stay on page' button below. I put a brick wall so this won't refresh(Due to glitches).";
+    return "Press the 'stay on page' button below. I put a concrete wall so this won't refresh(Due to glitches).";
 };
 
 var displayUserScore = function() {
