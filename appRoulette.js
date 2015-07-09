@@ -47,7 +47,7 @@ YOU LOST HAHAHAHAHAHAH YOU LOSERLOSERLOSERLOSERLOSER
 		}
 		if (userStreak > highStreak) {
 			alert("Woah! You broke the highscore! The new highscore is " + userStreak);
-				userStreak = highStreak;
+				highStreak = userStreak;
 		}
 return;
 }
