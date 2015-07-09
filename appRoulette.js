@@ -39,3 +39,20 @@ window.onbeforeunload = function() {
 var displayUserScore = function() {
 	document.getElementById('score').innerHTML = "Your streak is " + userStreak + ".";
 };
+
+/*
+
+
+_________
+/_______  \_______
+	    | |	     |
+	    | |	     |
+	    | |______|_
+	    |_|        | |
+	    |_|	       | |
+	    | |	       | |
+	    | |	       |_|
+	    | |	       |  
+	    | |		    | 
+	    |_|__________|
+*/
