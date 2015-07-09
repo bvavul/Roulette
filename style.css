@@ -14,6 +14,9 @@ body{
 	text-align: center;
 	font-size: 30px;
 	background-image: url("http://godlywoodstudio.org/wp-content/uploads/2014/11/Grey-website-background.png");
+	background-position: left bottom;
+	background-position: right bottom;
 	color: #A6F7D7;
     outline: #A6F7D7;
-}
+
+}B	
