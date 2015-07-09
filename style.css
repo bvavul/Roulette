@@ -1,3 +1,12 @@
+head{
+	font-family: symbol;
+	font-style: bold;
+	font-size: 45px;
+	
+
+}
+
+
 body{
 	font-family: symbol;
 	font-style: italic;
@@ -7,16 +16,4 @@ body{
 	background-image: url("http://www.better2web.com/djfiles/screenshot1.png");
 	color: #A6F7D7;
     outline: #A6F7D7;
-		}
-<<<<<<< HEAD
-oihrgweuhiregiurebburiohnehouefwhuoerguiegr'ldf noijerijongreijnoergoin43g
-=======
-
-form{
-	border-style: double;
-	border-color: #A6F7D7
-	center
-	
 }
->>>>>>> origin/master
-MERGE CONFLICT
