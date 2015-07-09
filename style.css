@@ -1,18 +1,24 @@
 head{
-	font-family: symbol;
+	font-family: fantasy;
 	font-style: bold;
-	font-size: 45px;
+	font-size: 40px;
+	font-style: italic;
 	
 
 }
 
 
 body{
-	font-family: symbol;
+	font-family: fantasy;
 	font-style: italic;
 	text-align: center;
-	font-size: 30px;
+	font-size: 25px;
 	background-image: url("http://godlywoodstudio.org/wp-content/uploads/2014/11/Grey-website-background.png");
+	background-position: left bottom;
+	background-position: right bottom;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
 	color: #A6F7D7;
     outline: #A6F7D7;
-}
+
+}	
