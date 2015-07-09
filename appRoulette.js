@@ -1,6 +1,6 @@
 var computerChoice= "";
 var userStreak = "";
-function losingchance() {
+function lifeordeath() {
 	userStreak++;
 	computerChoice = Math.floor(Math.random()*6);
 		if (computerChoice === 5){
@@ -24,8 +24,8 @@ function losingchance() {
 		}
 		else {
 			computerChoice = "lost";
-				displayUserScore(userStreak);
-					userStreak = 0;
+				userStreak = 0;
+					displayUserScore(userStreak);
 		}
 }
 /* DO NOT USE
