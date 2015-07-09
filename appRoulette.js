@@ -46,10 +46,13 @@ YOU LOST HAHAHAHAHAHAH YOU LOSERLOSERLOSERLOSERLOSER
 			userStreak = 0;
 		}
 		if (userStreak > highStreak) {
-			document.getElementById('hiscore').innerHTML = "You've broken the net worth of Bill Gates(Howww??)! The new highest net worth(yours) is " + UserScore;
+			document.getElementById('hiscore').innerHTML = "Woah! You broke the highscore! The new highscore is " + userStreak;
+				userStreak = highStreak;
 		}
+return;
 }
 
 var displayUserScore = function() {
 	document.getElementById('score').innerHTML = "Your streak is " + userStreak + ".";
+	return;
 };
