@@ -1,12 +1,10 @@
 body{
-	font-family: serif;
-	font-family: symbol, serif;
+	font-family: symbol;
 	font-style: italic;
 	text-align: center;
 	font-size: 91px;
 	background-image: url("http://coolbackgroundhd.com/wp-content/uploads/2015/05/cool-d-colorful-cubes.jpg");
 	color: #A6F7D7;
     outline: #A6F7D7;	
-	text-shadow: 4px 4px 4px;
 	/*Look at My Name*/
 		}
