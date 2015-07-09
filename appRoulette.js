@@ -28,11 +28,11 @@ function losingchance() {
 				displayUserScore(userStreak);
 		}
 }
-
+/* DO NOT USE
 window.onbeforeunload = function() {
     return "Press the 'stay on page' button below. I put a concrete wall so this won't refresh(Due to glitches).";
 };
-
+*/
 var displayUserScore = function() {
 	document.getElementById('score').innerHTML = "Your streak is " + userStreak + ".";
 };
