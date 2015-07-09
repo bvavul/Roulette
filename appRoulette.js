@@ -46,7 +46,7 @@ YOU LOST HAHAHAHAHAHAH YOU LOSERLOSERLOSERLOSERLOSER
 			userStreak = 0;
 		}
 		if (userStreak > highStreak) {
-			document.getElementById('hiscore').innerHTML = "Woah! You broke the highscore! The new highscore is " + userStreak;
+			alert("Woah! You broke the highscore! The new highscore is " + userStreak);
 				userStreak = highStreak;
 		}
 return;
