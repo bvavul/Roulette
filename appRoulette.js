@@ -1,6 +1,6 @@
 var computerChoice= "";
 var userStreak = "";
-var highStreak = "20";
+var highStreak = "0";
 function lifeordeath() {
 	userStreak++;
 	computerChoice = Math.floor(Math.random()*6);
