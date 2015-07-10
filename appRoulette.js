@@ -27,6 +27,7 @@ function lifeordeath() {
 			computerChoice = "lost";
 				displayUserScore(userStreak);
 				alert("Gooood Morning(Or afternoon. Or night.) You died a horrible, slow, painful death. Try not to visualize this. Oops, you might have already. Wanna hear a secret? Get to 100 streak and I'll tell you. Please try again. Your streak was " + userStreak + " wins.");
+				
 				/*
 LES DO DIS
  _________
