@@ -59,3 +59,4 @@ var displayUserScore = function() {
 	document.getElementById('score').innerHTML = "Your streak is " + userStreak + ".";
 	return;
 };
+//ADDDDDDDDDDDDDD HOMMMMMMERRRRRRRRR//
