@@ -6,7 +6,10 @@ head{
 	
 
 }
-
+#HappyFace {
+	width: 500px;
+	height: 300px;
+}
 
 body{
 	font-family: fantasy;
