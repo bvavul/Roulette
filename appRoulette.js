@@ -49,6 +49,9 @@ YOU LOST HAHAHAHAHAHAH YOU LOSERLOSERLOSERLOSERLOSER
 			alert("Woah! You broke the highscore! The new highscore is " + userStreak);
 				highStreak = userStreak;
 		}
+		if (userStreak > 99) {
+			alert("The secret is that you just realized that you have been playing this for too long. And you just defied mathematical probability(Which is one in 600. SIX HUNDRED.)");
+		}
 return;
 }
 
