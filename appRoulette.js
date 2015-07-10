@@ -27,6 +27,7 @@ function lifeordeath() {
 			computerChoice = "lost";
 				displayUserScore(userStreak);
 				alert("Gooood Morning(Or afternoon. Or night.) You died a horrible, slow, painful death. Try not to visualize this. Oops, you might have already. Wanna hear a secret? Get to 100 streak and I'll tell you. Please try again. Your streak was " + userStreak + " wins.");
+				
 				/*
 LES DO DIS
  _________
@@ -41,6 +42,7 @@ LES DO DIS
 	    | |	       |  
 	    | |		    | 
 	    |_|__________|
+
 YOU LOST HAHAHAHAHAHAH YOU LOSERLOSERLOSERLOSERLOSER
 */
 			userStreak = 0;
@@ -50,7 +52,7 @@ YOU LOST HAHAHAHAHAHAH YOU LOSERLOSERLOSERLOSERLOSER
 				highStreak = userStreak;
 		}
 		if (userStreak > 99) {
-		dddalert("The secret is that you just realized that you have been playing this for too long. And you just defied mathematical probability(Which is 0.00166666666 in one.)");
+		alert("The secret is that you just realized that you have been playing this for too long. And you just defied mathematical probability(Which is 0.00166666666 in one.)");
 		}
 return;
 }
@@ -59,4 +61,3 @@ var displayUserScore = function() {
 	document.getElementById('score').innerHTML = "Your streak is " + userStreak + ".";
 	return;
 };
-//ADDDDDDDDDDDDDD HOMMMMMMERRRRRRRRR//
