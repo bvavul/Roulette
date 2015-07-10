@@ -50,7 +50,7 @@ YOU LOST HAHAHAHAHAHAH YOU LOSERLOSERLOSERLOSERLOSER
 				highStreak = userStreak;
 		}
 		if (userStreak > 99) {
-			alert("The secret is that you just realized that you have been playing this for too long. And you just defied mathematical probability(Which is one in 600. SIX HUNDRED.)");
+			alert("The secret is that you just realized that you have been playing this for too long. And you just defied mathematical probability(Which is 0.00166666666 in one.)");
 		}
 return;
 }
