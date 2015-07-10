@@ -1,6 +1,6 @@
 var computerChoice= "";
 var userStreak = "";
-var highStreak = "0";
+var highStreak = "20";
 function lifeordeath() {
 	userStreak++;
 	computerChoice = Math.floor(Math.random()*6);
@@ -68,7 +68,7 @@ YOU LOST HAHAHAHAHAHAH YOU LOSERLOSERLOSERLOSERLOSER
 
 return;
 }
-
+}
 var displayUserScore = function() {
 	document.getElementById('score').innerHTML = "Your streak is " + userStreak + ".";
 	return;
