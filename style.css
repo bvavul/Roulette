@@ -11,6 +11,11 @@ head{
 	height: 300px;
 }
 
+#btn {
+	width: 500px;
+	height: 300px;
+}
+
 body{
 	font-family: fantasy;
 	font-style: italic;
