@@ -6,7 +6,12 @@ head{
 	
 
 }
-#HappyFace {
+.button {
+	width: 500px;
+	height: 300px;
+}
+
+#btn {
 	width: 500px;
 	height: 300px;
 }
@@ -16,5 +21,8 @@ body{
 	font-style: italic;
 	text-align: center;
 	font-size: 25px;
-	background-image: url("http://img.hdwallpaperpc.com/cover/37/Digital_Artwork_Triangle_Triangle_Gray_Grey_Abstract_36811_detail_thumb.jpg");
+	background-image: url("http://www.wallpaperhi.com/thumbnails/detail/20120201/minimalistic%20background%201920x1080%20wallpaper_www.wallpaperhi.com_32.jpg");
+	background-size: 1920px, 1080px;
+	background-repeat: no-repeat;
 	color: #A6F7D7;
+}
