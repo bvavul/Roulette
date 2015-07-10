@@ -6,16 +6,25 @@ head{
 	
 
 }
-
+#HappyFace {
+	width: 500px;
+	height: 300px;
+}
 
 body{
 	font-family: fantasy;
 	font-style: italic;
 	text-align: center;
 	font-size: 25px;
+<<<<<<< HEAD
 	background-image: url("http://www.wallspick.com/wp-content/uploads/2014/02/cool-wallpapers-640x480.jpg");
 	background-position: left bottom;
 	background-position: right bottom;
 	background-repeat: no-repeat;
     background-attachment: fixed;
 	color: #A6F7D7;
+=======
+	background-image: url("http://7-themes.com/data_images/out/66/6996704-cool-green-and-black-backgrounds.jpg");
+	background-repeat: no-repeat;
+	color: #A6F7D7;
+>>>>>>> origin/master
