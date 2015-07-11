@@ -12,9 +12,14 @@ head{
 }
 
 #btn {
+<<<<<<< HEAD
 	width: 500px;
 	height: 300px;
 	font-size:100px;
+=======
+	width: 653px;
+	height: 198px;
+>>>>>>> origin/master
 }
 
 body{
