@@ -12,8 +12,8 @@ head{
 }
 
 #btn {
-	width: 500px;
-	height: 300px;
+	width: 653px;
+	height: 198px;
 }
 
 body{
@@ -22,7 +22,7 @@ body{
 	text-align: center;
 	font-size: 25px;
 	background-image: url("http://www.wallpaperhi.com/thumbnails/detail/20120201/minimalistic%20background%201920x1080%20wallpaper_www.wallpaperhi.com_32.jpg");
-	background-size: 1920px, 1080px;
+	background-size: 1600px, 900px;
 	background-repeat: no-repeat;
 	color: #A6F7D7;
 }
