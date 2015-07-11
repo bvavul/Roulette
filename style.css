@@ -6,12 +6,8 @@ head{
 	
 
 }
-.button {
-	width: 500px;
-	height: 300px;
-}
-
 #btn {
+<<<<<<< HEAD
 <<<<<<< HEAD
 	width: 500px;
 	height: 300px;
@@ -19,6 +15,12 @@ head{
 =======
 	width: 653px;
 	height: 198px;
+>>>>>>> origin/master
+=======
+	width: 400px;
+	height: 200px;
+	font-size: 100px;
+
 >>>>>>> origin/master
 }
 
