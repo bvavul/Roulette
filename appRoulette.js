@@ -5,8 +5,10 @@ function WinnerOrNot() {
 	userStreak++;
 	computerChoice = Math.floor(Math.random()*6);
 		if (computerChoice === 5){
-			computerChoice = "chosen";
-				displayuserScore(userStreak);
+			computerChoice = "lost";
+				displayUserScore(userStreak);
+				alert("Gooood Morning(Or afternoon. Or night.) You died a horrible, slow, painful death. Try not to visualize this. Oops, you might have already. But hey, wanna hear a secret? Get to 100 streak and I'll tell you. Please try again. Sadly, your streak was " + userStreak + " wins.");
+				userStreak = 0;
 		}
 		else if(computerChoice === 1) {
 			computerChoice = "chosen";
@@ -24,22 +26,10 @@ function WinnerOrNot() {
 			computerChoice = "chosen";
 				displayUserScore(userStreak);
 		}
-		else if(userStreak > 99) {
-			userStreak = 0;
-				alert("The secret is that you just realized that you have been playing this for too long. And you just defied mathematical probability(Which is 0.00166666666 in one.). And I reset your streak to zero. TROLLLLLEEEDDDD");
-
-		}
-		else if(userStreak > highStreak) {
-			document.getElementById('something').innerHTML = "Woah! You broke the highscore! The new highscore is " + userStreak + ".";
-				highStreak = userStreak;
-		}
-		else {
+		else
 			computerChoice = "lost";
-				displayUserScore(userStreak);
-				alert("Gooood Morning(Or afternoon. Or night.) You died a horrible, slow, painful death. Try not to visualize this. Oops, you might have already. But hey, wanna hear a secret? Get to 100 streak and I'll tell you. Please try again. Sadly, your streak was " + userStreak + " wins.");
-				userStreak = 0;
-
-		}
+				computerChoice = "lost";
+					displayUserScore(UserStreak);
 return;
 }
 var displayUserScore = function() {
