@@ -35,7 +35,6 @@ return;
 var displayUserScore = function() {
 	document.getElementById('score').innerHTML = "Your streak is " + userStreak + ".";
 };
-
 /*
 LES DO DIS
  _________
