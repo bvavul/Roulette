@@ -1,4 +1,4 @@
-var computerChoice= "";
+var computerChoice = "";
 var userStreak = "";
 var highStreak = "20";
 function WinnerOrNot() {
