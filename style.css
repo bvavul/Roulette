@@ -1,36 +1,26 @@
 head{
 	font-family: fantasy;
 	font-style: bold;
-	font-size: 3000px;
+	font-size: 30px;
 	font-style: italic;
-	
-
 }
 #btn {
-<<<<<<< HEAD
-<<<<<<< HEAD
-	width: 500px;
-	height: 300px;
-	font-size:100px;
-=======
-	width: 653px;
-	height: 198px;
->>>>>>> origin/master
-=======
-	width: 400px;
-	height: 200px;
-	font-size: 100px;
 
->>>>>>> origin/master
+	padding-left: 500px;
+	padding-top: 300px;
+	font-size:25px;
+
 }
 
 body{
-	font-family: fantasy;
+	font-family: georgia;
 	font-style: italic;
 	text-align: center;
 	font-size: 25px;
-	background-image: url("http://www.wallpaperhi.com/thumbnails/detail/20120201/minimalistic%20background%201920x1080%20wallpaper_www.wallpaperhi.com_32.jpg");
+	background-image: url("http://host2post.com/server13/photos/pDNpOy4oHbL_kM~/texture-wallpaper-creative-background-wallpapers.jpg");
 	background-size: 1600px, 900px;
 	background-repeat: no-repeat;
 	color: #A6F7D7;
 }
+
+#mainpic
