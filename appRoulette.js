@@ -25,7 +25,8 @@ function WinnerOrNot() {
 				displayUserScore(userStreak);
 		}
 		else if(userStreak > 99) {
-			alert("The secret is that you just realized that you have been playing this for too long. And you just defied mathematical probability(Which is 0.00166666666 in one.)");
+			userStreak = 0;
+				alert("The secret is that you just realized that you have been playing this for too long. And you just defied mathematical probability(Which is 0.00166666666 in one.). And I reset your streak to zero. TROLLLLLEEEDDDD");
 
 		}
 		else if(userStreak > highStreak) {
@@ -39,6 +40,8 @@ function WinnerOrNot() {
 				userStreak = 0;
 
 		}
+    }
+return;
 }
 var displayUserScore = function() {
 	document.getElementById('score').innerHTML = "Your streak is " + userStreak + ".";
