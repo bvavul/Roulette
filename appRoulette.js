@@ -40,8 +40,12 @@ function WinnerOrNot() {
 				userStreak = 0;
 
 		}
+<<<<<<< Updated upstream
 		
     }
+=======
+	}
+>>>>>>> Stashed changes
 return;
 }
 var displayUserScore = function() {
