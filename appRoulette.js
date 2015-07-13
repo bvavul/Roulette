@@ -40,6 +40,7 @@ function WinnerOrNot() {
 				userStreak = 0;
 
 		}
+		
     }
 return;
 }
