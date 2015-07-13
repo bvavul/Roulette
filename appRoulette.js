@@ -1,3 +1,5 @@
+<audio controls="controls">ClickMe<source src="Upbeat Ukulele Background Music - That Positive Feeling by Alumo.mp3" type="audio/mpeg" />yolo</audio>
+
 var computerChoice = "";
 var userStreak = "";
 function WinnerOrNot() {
