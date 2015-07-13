@@ -1,7 +1,7 @@
 var computerChoice= "";
 var userStreak = "";
 var highStreak = "20";
-function icecreamsundae() {
+function WinnerOrNot() {
 	userStreak++;
 	computerChoice = Math.floor(Math.random()*6);
 		if (computerChoice === 5){
@@ -29,13 +29,13 @@ function icecreamsundae() {
 
 		}
 		else if(userStreak > highStreak) {
-			alert("Woah! You broke the highscore! The new highscore is " + userStreak);
+			document.getElementById('something').innerHTML = "Woah! You broke the highscore! The new highscore is " + userStreak + ".";
 				highStreak = userStreak;
 		}
 		else {
 			computerChoice = "lost";
 				displayUserScore(userStreak);
-				alert("Gooood Morning(Or afternoon. Or night.) You died a horrible, slow, painful death. Try not to visualize this. Oops, you might have already. Wanna hear a secret? Get to 100 streak and I'll tell you. Please try again. Your streak was " + userStreak + " wins.");
+				alert("Gooood Morning(Or afternoon. Or night.) You died a horrible, slow, painful death. Try not to visualize this. Oops, you might have already. But hey, wanna hear a secret? Get to 100 streak and I'll tell you. Please try again. Sadly, your streak was " + userStreak + " wins.");
 				userStreak = 0;
 
 		}
