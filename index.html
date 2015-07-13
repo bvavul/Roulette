@@ -28,71 +28,7 @@
 <img style="position:absolute; BOTTOM:0px; RIGHT:0px; WIDTH:50px; HEIGHT:50px" src="http://tx.english-ch.com/teacher/nicole/wheel%20animated.gif">
 <!--The above is the small wheel in the bottom right hand corner.-->
 
-<script>
-var computerChoice= "";
-var userStreak = "";
-var highStreak = "20";
-function losingchoice() {
-	userStreak++;
-	computerChoice = Math.floor(Math.random()*6);
-		if (computerChoice === 5){
-			computerChoice = "chosen";
-				displayuserScore(userStreak);
-		}
-		else if(computerChoice === 1) {
-			computerChoice = "chosen";
-				displayUserScore(userStreak);
-		}
-		else if(computerChoice === 2) {
-			computerChoice = "chosen";
-				displayUserScore(userStreak);
-		}
-		else if(computerChoice === 3) {
-			computerChoice = "chosen";
-				displayUserScore(userStreak);
-		}
-		else if(computerChoice === 4) {
-			computerChoice = "chosen";
-				displayUserScore(userStreak);
-		}
-		else {
-			computerChoice = "lost";
-				userStreak = 0;
-				displayUserScore(userStreak);
-				alert("Gooood Morning(Or afternoon. Or night.) You died a horrible, slow, painful death. Try not to visualize this. Oops, you might have already. Wanna hear a secret? Get to 100 streak and I'll tell you. Please try again. Your streak was " + userStreak + " wins.");
-		}
-		if (userStreak > highStreak) {
-			alert("Woah! You broke the highscore! The new highscore is " + userStreak);
-				highStreak = userStreak;
-		}
-
-
-		if (userStreak > 99) {
-			alert("The secret is that you just realized that you have been playing this for too long. And you just defied mathematical probability(Which is 0.00166666666 in one.).");
-
-		}
-}
-var displayUserScore = function() {
-	document.getElementById('score').innerHTML = "Your streak is " + userStreak + ".";
-};
-
-/*
-LES DO DIS
- _________
-/_______  \______
-	    | | _  _ |
-	    | |	 __  |
-	    | |______|___
-	    |_|        | |
-	    |_|	       | |
-	    | |	       | |
-	    | |	       |_|
-	    | |	       |  
-	    | |		    | 
-	    |_|__________|
-YOU LOST HAHAHAHAHAHAH YOU LOSERLOSERLOSERLOSERLOSER
-*/
-</script>
+<script type="text/javascript" src="appRoulette.js"></script>
 
 </body>
 </html>
