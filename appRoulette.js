@@ -24,20 +24,19 @@ function Bah_bah_bah() {
 			computerChoice = "chosen";
 				displayUserScore(userStreak);
 		}
-		else {
-			computerChoice = "lost";
-				userStreak = 0;
-				displayUserScore(userStreak);
-				alert("Gooood Morning(Or afternoon. Or night.) You died a horrible, slow, painful death. Try not to visualize this. Oops, you might have already. Wanna hear a secret? Get to 100 streak and I'll tell you. Please try again. Your streak was " + userStreak + " wins.");
+		else if(userStreak > 99) {
+			alert("The secret is that you just realized that you have been playing this for too long. And you just defied mathematical probability(Which is 0.00166666666 in one.)");
+
 		}
-		if (userStreak > highStreak) {
+		else if(userStreak > highStreak) {
 			alert("Woah! You broke the highscore! The new highscore is " + userStreak);
 				highStreak = userStreak;
 		}
-
-
-		if (userStreak > 99) {
-			alert("The secret is that you just realized that you have been playing this for too long. And you just defied mathematical probability(Which is 0.00166666666 in one.)");
+		else {
+			computerChoice = "lost";
+				displayUserScore(userStreak);
+				alert("Gooood Morning(Or afternoon. Or night.) You died a horrible, slow, painful death. Try not to visualize this. Oops, you might have already. Wanna hear a secret? Get to 100 streak and I'll tell you. Please try again. Your streak was " + userStreak + " wins.");
+				userStreak = 0;
 
 		}
 }
