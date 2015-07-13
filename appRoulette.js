@@ -40,12 +40,7 @@ function WinnerOrNot() {
 				userStreak = 0;
 
 		}
-<<<<<<< HEAD
-	return;
-=======
-    }
 return;
->>>>>>> origin/master
 }
 var displayUserScore = function() {
 	document.getElementById('score').innerHTML = "Your streak is " + userStreak + ".";
@@ -67,7 +62,3 @@ LES DO DIS
 	    |_|__________|
 YOU LOST HAHAHAHAHAHAH YOU LOSERLOSERLOSERLOSERLOSER
 */
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
