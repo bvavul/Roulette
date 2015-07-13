@@ -1,6 +1,6 @@
 var computerChoice = "";
 var userStreak = "";
-function WinnerOrNotHereICome() {
+function WinnerOrNot() {
 	userStreak++;
 	computerChoice = Math.floor(Math.random()*6);
 		if (computerChoice === 5){
