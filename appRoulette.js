@@ -28,7 +28,7 @@ function WinnerOrNot() {
 		else
 			computerChoice = "lost";
 				computerChoice = "lost";
-					displayUserScore(UserStreak);
+				userScore = 0;
 return;
 }
 var displayUserScore = function() {
