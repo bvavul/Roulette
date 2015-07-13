@@ -1,7 +1,7 @@
 var computerChoice= "";
 var userStreak = "";
 var highStreak = "20";
-function Bah_bah_bah() {
+function icecreamsundae() {
 	userStreak++;
 	computerChoice = Math.floor(Math.random()*6);
 		if (computerChoice === 5){
@@ -60,3 +60,4 @@ LES DO DIS
 	    |_|__________|
 YOU LOST HAHAHAHAHAHAH YOU LOSERLOSERLOSERLOSERLOSER
 */
+
