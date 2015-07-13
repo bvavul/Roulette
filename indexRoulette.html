@@ -1,28 +1,36 @@
+
+<!DOCTYPE HTML>
+<html>
 <head>
 
 	<link rel="stylesheet" href="style.css">
 	<title>Roulette</title>
-<script type="text/javascript" src="appRoulette.js"></script>
+
 </head>
 
 <body text align="center">
-<p id="score"></p>
 
-	<p id="userStreak"> </p>
 	<p>Click a button!</p>
 	<p>You have a 5 in 6 chance of winning nothing!</p>
-	<p> Good Luck!!</p>
+	<p>Good Luck!!</p>
+<form>
+	
+	<input type="button" src="http://rochestergarden.org/images/rock.png" onclick="WinnerOrNot()" name="Roulette" width="200">
+	<!--The above is the button that runs the "Win or lose" function.-->
 </form>
-<button id="btn" onclick="lifeordeath()">
-CLICK ME
-</button>
+<br>
+<br>
 
 <img style="position:absolute; BOTTOM:0px; LEFT:0px; WIDTH:50px; HEIGHT:50px" src="http://tx.english-ch.com/teacher/nicole/wheel%20animated.gif">
+<!--The above is the main pic in the bottom left hand corner.-->
 
-<img src="http://linkll.com/dzcproductions/wp-content/uploads/2015/04/RouletteRun.gif">
+<img src="http://linkll.com/dzcproductions/wp-content/uploads/2015/04/RouletteRun.gif" id="mainpic">
+<!--The above is the main pic in the app.-->
 
 <img style="position:absolute; BOTTOM:0px; RIGHT:0px; WIDTH:50px; HEIGHT:50px" src="http://tx.english-ch.com/teacher/nicole/wheel%20animated.gif">
+<!--The above is the small wheel in the bottom right hand corner.-->
 
-
+<script type="text/javascript" src="appRoulette.js"></script>
 
 </body>
+</html>
