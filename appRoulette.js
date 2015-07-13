@@ -1,7 +1,7 @@
 var computerChoice= "";
 var userStreak = "";
 var highStreak = "20";
-function losingchoice() {
+function Bah_bah_bah() {
 	userStreak++;
 	computerChoice = Math.floor(Math.random()*6);
 		if (computerChoice === 5){
