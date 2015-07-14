@@ -3,10 +3,7 @@ var userStreak = "";
 function WinnerOrNot() {
 	userStreak++;
 	computerChoice = Math.floor(Math.random()*6);
-		if (computerChoice === 5) {
-				displayUserScore(userStreak);
-		}
-		else if(computerChoice === 1) {
+		if (computerChoice === 1) {
 				displayUserScore(userStreak);
 		}
 		else if(computerChoice === 2) {
@@ -16,6 +13,9 @@ function WinnerOrNot() {
 				displayUserScore(userStreak);
 		}
 		else if(computerChoice === 4) {
+				displayUserScore(userStreak);
+		}
+		else if(computerChoice === 5) {
 				displayUserScore(userStreak);
 		}
 		else
