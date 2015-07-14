@@ -24,7 +24,6 @@ function WinnerOrNot() {
 }
 var displayUserScore = function() {
 	document.getElementById('paragraph').innerHTML = "Your streak is " + userStreak + ".";
-	return;
 };
 /*
 LES DO DIS
