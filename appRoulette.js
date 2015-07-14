@@ -19,7 +19,6 @@ function WinnerOrNot() {
 				displayUserScore(userStreak);
 		}
 		else
-			computerChoice = "lost";
 				alert("Gooood Morning(Or afternoon. Or night.) You died a horrible, slow, painful death. Try not to visualize this. Oops, you might have already. But hey, wanna hear a secret? Get to 100 streak and I'll tell you. Please try again. Sadly, your streak was " + userStreak + " wins.");
 				userScore = 0;
 return;
