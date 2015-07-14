@@ -30,12 +30,14 @@ function WinnerOrNot() {
 var displayUserScore = function() {
 	document.getElementById('paragraph').innerHTML = "Your streak is " + userStreak + ".";
 };
-function onehundredcheck() {
+
+var onehundredcheck = function(){
 	if (userStreak > 99) {
-		userStreak = 0;
 		alert("You have broken the 100 streak. The secret is that you have been playing this for too long, and you have no friends. JUST STOP PLAYING AND GO OUTSIDE OR SOMETHING. And I reset your score to 0. TTTRRROOOOOLLLLEEEDDD");
+		userStreak = 0;
 	}
-}
+};
+
 /*
 LES DO DIS
  _________
