@@ -1,6 +1,7 @@
 var computerChoice;
 var userStreak = 0;
 function WinnerOrNot() {
+userStreak++;
 	computerChoice = Math.floor(Math.random()*6);
 		if (computerChoice === 1) {
 			displayUserScore(userStreak);
