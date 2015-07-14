@@ -22,4 +22,9 @@ body{
 	background-repeat: no-repeat;
 	color: #A6F7D7;
 }
+<style media="screen">
+.sqs-audio-embed {
+  visibility: hidden;
+}
+</style>
 
