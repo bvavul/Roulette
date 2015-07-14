@@ -3,7 +3,7 @@ var userStreak = "";
 function WinnerOrNot() {
 	userStreak++;
 	computerChoice = Math.floor(Math.random()*6);
-		if (computerChoice === 5){
+		if (computerChoice === 5) {
 				displayUserScore(userStreak);
 				alert("Gooood Morning(Or afternoon. Or night.) You died a horrible, slow, painful death. Try not to visualize this. Oops, you might have already. But hey, wanna hear a secret? Get to 100 streak and I'll tell you. Please try again. Sadly, your streak was " + userStreak + " wins.");
 				userStreak = 0;
@@ -26,7 +26,7 @@ function WinnerOrNot() {
 return;
 }
 var displayUserScore = function() {
-	document.getElementById('score').innerHTML = "Your streak is " + userStreak + ".";
+	document.getElementById('paragraph').innerHTML = "Your streak is " + userStreak + ".";
 };
 /*
 LES DO DIS
