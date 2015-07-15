@@ -1,5 +1,5 @@
 var computerChoice = 20;
-var userStreak;
+var userStreak = "";
 function WinnerOrNot() {
 	userStreak++;
 	computerChoice = Math.floor(Math.random()*6);
