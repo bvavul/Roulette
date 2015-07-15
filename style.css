@@ -17,10 +17,16 @@ body{
 	font-style: italic;
 	text-align: center;
 	font-size: 25px;
+	color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
 	background-color: #19353E;
 	background-size: 1600px, 900px;
 	background-repeat: no-repeat;
-	color: #A6F7D7;
+	color: #181516;
 }
 </style>
 
