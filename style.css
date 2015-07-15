@@ -17,12 +17,6 @@ body{
 	font-style: italic;
 	text-align: center;
 	font-size: 25px;
-	color: black;
-    text-shadow:
-    -0.5px -0.5px 0 white,
-    0.5px -0.5px 0 white,
-    -0.5px 0.5px 0 white,
-    0.5px 0.5px 0 white; 
 	background-color: #19353E;
 	background-size: 1600px, 900px;
 	background-repeat: no-repeat;
