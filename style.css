@@ -19,10 +19,10 @@ body{
 	font-size: 25px;
 	color: black;
     text-shadow:
-    -1px -1px 0 white,
-    1px -1px 0 white,
-    -1px 1px 0 white,
-    1px 1px 0 white; 
+    -0.5px -0.5px 0 white,
+    0.5px -0.5px 0 white,
+    -0.5px 0.5px 0 white,
+    0.5px 0.5px 0 white; 
 	background-color: #19353E;
 	background-size: 1600px, 900px;
 	background-repeat: no-repeat;
