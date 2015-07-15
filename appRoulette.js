@@ -1,4 +1,4 @@
-var computerChoice;
+var computerChoice = 20;
 var userStreak;
 function WinnerOrNot() {
 	userStreak++;
