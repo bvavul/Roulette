@@ -1,7 +1,6 @@
 
-var highStreak = 0;
+var highStreak = 1;
 
-var highStreak = 20;
 
 var computerChoice = 20;
 var userStreak = "";
