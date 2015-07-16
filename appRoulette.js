@@ -47,8 +47,13 @@ var displayHighStreak = function() {
 };
 
 function scanForHighStreak() {
+	beathighhowmany++;
 	if(userStreak > highStreak)
 		highStreak = userStreak;
+}
+
+function scanforhowmanytimesyoubrokehighscore() {
+	document.getElementById(paragraph3).innetHTML = "You broke the highscore " + beathighhowmany + " times.";
 }
 
 /*
