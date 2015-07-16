@@ -6,27 +6,28 @@ function WinnerOrNot() {
 	userStreak++;
 	computerChoice = Math.floor(Math.random()*6);
 		if(computerChoice === 1) {
-			displayUserScore(userStreak);
+			testForHighStreak(userStreak, highStreak);
 		}
 		else if(computerChoice === 2) {
-			displayUserScore(userStreak);
+			testForHighStreak(userStreak, highStreak);
 			displayHighStreak(highStreak);
 		}
 		else if(computerChoice === 3) {
-			displayUserScore(userStreak);
+			testForHighStreak(userStreak, highStreak);
 			displayHighStreak(highStreak);
 		}
 		else if(computerChoice === 4) {
-			displayUserScore(userStreak);
+			testForHighStreak(userStreak, highStreak);
 			displayHighStreak(highStreak);
 		}
 		else if(computerChoice === 5) {
-			displayUserScore(userStreak);
+			testForHighStreak(userStreak, highStreak);
 			displayHighStreak(highStreak);
 		}
 		else {
 			userStreak--;
 			alert("Gooood Morning(Or afternoon. Or night.) You died a horrible, slow, painful death. Please try again. Sadly, your streak was " + userStreak + " wins.");
+			userStreak++;
 			userStreak = 0;
 		}
 	return;
@@ -36,7 +37,7 @@ var displayHighStreak = function() {
 		document.getElementById('paragraph2').innerHTML = "The highscore is " + highStreak + ".";
 };
 
-var testforhighstreak = function() {
+var testForHighStreak = function() {
 	if (userStreak > highStreak) {
 		highStreak = userStreak;
 	}
@@ -45,17 +46,6 @@ var testforhighstreak = function() {
 	}
 }
 
-if (typeof(Storage) != "undefined") {
-    // Store
-    localStorage.setItem("highscore", highstreak);
-    // Retrieve
-    document.getElementById("memory").innerHTML = localStorage.getItem("highscore");
-}
-else if (testing === 100)
-	document.getElementById('memory').innerHTML = "Your streak is " + userStreak + ".";
-else {
-    document.getElementById("memory").innerHTML = "Sorry, your browser does not support Web Storage...";
-}
 /*
 LES DO DIS
  _________
