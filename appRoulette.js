@@ -1,8 +1,5 @@
-
-var highStreak = 1;
-
-
-var computerChoice = 20;
+var highStreak = 20;
+var computerChoice = 0;
 var userStreak = "";
 var beathighhowmany = 0;
 function WinnerOrNot() {
