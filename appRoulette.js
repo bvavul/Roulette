@@ -1,5 +1,5 @@
 
-var highStreak = 0;
+var highStreak = 1;
 
 
 var computerChoice = 20;
