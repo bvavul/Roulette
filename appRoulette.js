@@ -46,9 +46,6 @@ var displayHighStreak = function() {
 	document.getElementById('paragraph2').innerHTML = "The highscore is " + highStreak + ".";
 };
 
-function scanForHighStreak() {
-	beathighhowmany++;
-	if(userStreak > highStreak)
 /*
 LES DO DIS
  _________
