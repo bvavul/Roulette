@@ -1,20 +1,18 @@
 var highStreak = 20;
 var computerChoice = 0;
 var userStreak = "";
-var beathighhowmany = 0;
+var laststreak = "";
 function WinnerOrNot() {
 	userStreak++;
 	computerChoice = Math.floor(Math.random()*6);
 		if(computerChoice === 1) {
 			displayUserScore(userStreak);
-			displayHighStreak(highStreak);
-			scanForHighStreak(userStreak, highStreak);
+			displaylaststreak(lastStreak);
 		}
 		else if(computerChoice === 2) {
 			displayUserScore(userStreak);
 			displayHighStreak(highStreak);
 			scanForHighStreak(userStreak, highStreak);
-
 		}
 		else if(computerChoice === 3) {
 			displayUserScore(userStreak);
@@ -34,7 +32,7 @@ function WinnerOrNot() {
 		else {
 			userStreak--;
 			alert("Gooood Morning(Or afternoon. Or night.) You died a horrible, slow, painful death. Please try again. Sadly, your streak was " + userStreak + " wins.");
-			userStreak++;
+			lastStreak = userStreak;
 			userStreak = 0;
 		}
 	return;
@@ -44,6 +42,9 @@ var displayUserScore = function() {
 };
 var displayHighStreak = function() {
 	document.getElementById('paragraph2').innerHTML = "The highscore is " + highStreak + ".";
+};
+var displaylaststreak = function() {
+	document.getElementById('paragraph3').innerHTML = "Your last streak count was " + lastStreak + ".";
 };
 
 /*
