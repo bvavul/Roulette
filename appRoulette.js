@@ -27,15 +27,23 @@ function WinnerOrNot() {
 		else {
 			userStreak--;
 			alert("Gooood Morning(Or afternoon. Or night.) You died a horrible, slow, painful death. Please try again. Sadly, your streak was " + userStreak + " wins.");
-			lastStreak = userStreak;
 			userStreak = 0;
 		}
 	return;
 }
 
 var displayHighStreak = function() {
-	document.getElementById('paragraph2').innerHTML = "The highscore is " + highStreak + ".";
+		document.getElementById('paragraph2').innerHTML = "The highscore is " + highStreak + ".";
 };
+
+var testforhighstreak = function() {
+	if (userStreak > highStreak) {
+		highStreak = userStreak;
+	}
+	else {
+		highStreak = highStreak;
+	}
+}
 
 if (typeof(Storage) != "undefined") {
     // Store
