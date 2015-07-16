@@ -1,7 +1,6 @@
 var highStreak = 20;
 var computerChoice = 0;
 var userStreak = "";
-var beathighhowmany = 0;
 function WinnerOrNot() {
 	userStreak++;
 	computerChoice = Math.floor(Math.random()*6);
@@ -47,13 +46,8 @@ var displayHighStreak = function() {
 };
 
 function scanForHighStreak() {
-	beathighhowmany++;
 	if(userStreak > highStreak)
 		highStreak = userStreak;
-}
-
-function scanforhowmanytimesyoubrokehighscore() {
-	document.getElementById('paragraph3').innerHTML = "You broke the highscore " + beathighhowmany + " times.";
 }
 
 /*
