@@ -1,35 +1,33 @@
 var highStreak = 20;
 var computerChoice = 0;
 var userStreak = "";
-var beathighhowmany = 0;
 function WinnerOrNot() {
 	userStreak++;
 	computerChoice = Math.floor(Math.random()*6);
 		if(computerChoice === 1) {
 			displayUserScore(userStreak);
 			displayHighStreak(highStreak);
-			scanForHighStreak(userStreak, highStreak);
+			checkForHighScore(highStreak);
 		}
 		else if(computerChoice === 2) {
 			displayUserScore(userStreak);
-			displayHighStreak(highStreak);
-			scanForHighStreak(userStreak, highStreak);
-
+			displayHighStreak(highStreak)
+			checkForhighScore(highStreak);
 		}
 		else if(computerChoice === 3) {
 			displayUserScore(userStreak);
 			displayHighStreak(highStreak);
-			scanForHighStreak(userStreak, highStreak);
+			checkForhighScore(highStreak);
 		}
 		else if(computerChoice === 4) {
 			displayUserScore(userStreak);
 			displayHighStreak(highStreak);
-			scanForHighStreak(userStreak, highStreak);
+			checkForhighScore(highStreak);
 		}
 		else if(computerChoice === 5) {
 			displayUserScore(userStreak);
 			displayHighStreak(highStreak);
-			scanForHighStreak(userStreak, highStreak);
+			checkForhighScore(highStreak);
 		}
 		else {
 			userStreak--;
@@ -46,16 +44,11 @@ var displayHighStreak = function() {
 	document.getElementById('paragraph2').innerHTML = "The highscore is " + highStreak + ".";
 };
 
-function scanForHighStreak() {
-	beathighhowmany++;
-	if(userStreak > highStreak)
+function checkForHighScore() {
+	if (userStreak > highStreak) {
 		highStreak = userStreak;
+	}
 }
-
-function scanforhowmanytimesyoubrokehighscore() {
-	document.getElementById('paragraph3').innerHTML = "You broke the highscore " + beathighhowmany + " times.";
-}
-
 /*
 LES DO DIS
  _________
