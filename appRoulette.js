@@ -1,4 +1,4 @@
-var highStreak = 20;
+var highStreak = 1000000;
 var computerChoice = 20;
 var userStreak = "";
 var beathighhowmany = 0;
@@ -43,7 +43,7 @@ var displayUserScore = function() {
 	document.getElementById('paragraph').innerHTML = "Your streak is " + userStreak + ".";
 };
 var displayHighStreak = function() {
-	document.getElementById('paragraph2').innerHTML = "The highscore is " + highStreak + ".";
+	document.getElementById('paragraph2').innerHTML = "Try to beat " + highStreak + ".";
 };
 
 function scanForHighStreak() {
