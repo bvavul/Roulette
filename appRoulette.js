@@ -7,28 +7,27 @@ function WinnerOrNot() {
 		if(computerChoice === 1) {
 			displayUserScore(userStreak);
 			displayHighStreak(highStreak);
-			scanForHighStreak(userStreak, highStreak);
+			checkForHighScore(highStreak);
 		}
 		else if(computerChoice === 2) {
 			displayUserScore(userStreak);
 			displayHighStreak(highStreak);
-			scanForHighStreak(userStreak, highStreak);
-
+			checkForhighScore(highStreak);
 		}
 		else if(computerChoice === 3) {
 			displayUserScore(userStreak);
 			displayHighStreak(highStreak);
-			scanForHighStreak(userStreak, highStreak);
+			checkForhighScore(highStreak);
 		}
 		else if(computerChoice === 4) {
 			displayUserScore(userStreak);
 			displayHighStreak(highStreak);
-			scanForHighStreak(userStreak, highStreak);
+			checkForhighScore(highStreak);
 		}
 		else if(computerChoice === 5) {
 			displayUserScore(userStreak);
 			displayHighStreak(highStreak);
-			scanForHighStreak(userStreak, highStreak);
+			checkForhighScore(highStreak);
 		}
 		else {
 			userStreak--;
@@ -45,11 +44,11 @@ var displayHighStreak = function() {
 	document.getElementById('paragraph2').innerHTML = "The highscore is " + highStreak + ".";
 };
 
-function scanForHighStreak() {
-	if(userStreak > highStreak)
+function checkForHighScore() {
+	if (userStreak > highStreak) {
 		highStreak = userStreak;
+	}
 }
-
 /*
 LES DO DIS
  _________
