@@ -1,4 +1,4 @@
-var highStreak = 1000000;
+var highStreak = 20;
 var computerChoice = 20;
 var userStreak = "";
 var beathighhowmany = 0;
