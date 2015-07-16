@@ -5,23 +5,30 @@ function WinnerOrNot() {
 	userStreak++;
 	computerChoice = Math.floor(Math.random()*6);
 		if(computerChoice === 1) {
-			testForHighStreak(userStreak, highStreak);
+			displayUserScore(userStreak);
+			displayHighStreak(highStreak);
+			scanForHighStreak(userStreak, highStreak);
 		}
 		else if(computerChoice === 2) {
-			testForHighStreak(userStreak, highStreak);
+			displayUserScore(userStreak);
 			displayHighStreak(highStreak);
+			scanForHighStreak(userStreak, highStreak);
+
 		}
 		else if(computerChoice === 3) {
-			testForHighStreak(userStreak, highStreak);
+			displayUserScore(userStreak);
 			displayHighStreak(highStreak);
+			scanForHighStreak(userStreak, highStreak);
 		}
 		else if(computerChoice === 4) {
-			testForHighStreak(userStreak, highStreak);
+			displayUserScore(userStreak);
 			displayHighStreak(highStreak);
+			scanForHighStreak(userStreak, highStreak);
 		}
 		else if(computerChoice === 5) {
-			testForHighStreak(userStreak, highStreak);
+			displayUserScore(userStreak);
 			displayHighStreak(highStreak);
+			scanForHighStreak(userStreak, highStreak);
 		}
 		else {
 			userStreak--;
@@ -31,17 +38,12 @@ function WinnerOrNot() {
 		}
 	return;
 }
-
-var displayHighStreak = function() {
-		document.getElementById('paragraph2').innerHTML = "The highscore is " + highStreak + ".";
+var displayUserScore = function() {
+	document.getElementById('paragraph').innerHTML = "Your streak is " + userStreak + ".";
 };
-
-function testForHighStreak() {
-	if (userStreak > highStreak) {
-		highStreak = userStreak;
-	}
-}
-
+var displayHighStreak = function() {
+	document.getElementById('paragraph2').innerHTML = "The highscore is " + highStreak + ".";
+};
 /*
 LES DO DIS
  _________
