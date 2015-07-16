@@ -1,7 +1,6 @@
 var highStreak = 20;
 var computerChoice = 0;
 var userStreak = "";
-var testing = 100;
 function WinnerOrNot() {
 	userStreak++;
 	computerChoice = Math.floor(Math.random()*6);
@@ -37,12 +36,9 @@ var displayHighStreak = function() {
 		document.getElementById('paragraph2').innerHTML = "The highscore is " + highStreak + ".";
 };
 
-var testForHighStreak = function() {
+function testForHighStreak() {
 	if (userStreak > highStreak) {
 		highStreak = userStreak;
-	}
-	else {
-		highStreak = highStreak;
 	}
 }
 
