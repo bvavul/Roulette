@@ -53,7 +53,7 @@ function scanForHighStreak() {
 }
 
 function scanforhowmanytimesyoubrokehighscore() {
-	document.getElementById(paragraph3).innetHTML = "You broke the highscore " + beathighhowmany + " times.";
+	document.getElementById('paragraph3').innerHTML = "You broke the highscore " + beathighhowmany + " times.";
 }
 
 /*
