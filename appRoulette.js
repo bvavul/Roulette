@@ -49,13 +49,6 @@ var displayHighStreak = function() {
 function scanForHighStreak() {
 	beathighhowmany++;
 	if(userStreak > highStreak)
-		highStreak = userStreak;
-}
-
-function scanforhowmanytimesyoubrokehighscore() {
-	document.getElementById('paragraph3').innerHTML = "You broke the highscore " + beathighhowmany + " times.";
-}
-
 /*
 LES DO DIS
  _________
