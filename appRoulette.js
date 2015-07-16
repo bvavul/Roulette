@@ -43,7 +43,7 @@ var displayUserScore = function() {
 	document.getElementById('paragraph').innerHTML = "Your streak is " + userStreak + ".";
 };
 var displayHighStreak = function() {
-	document.getElementById('paragraph2').innerHTML = "Try to beat " + highStreak + ".";
+	document.getElementById('paragraph2').innerHTML = "The highscore is " + highStreak + ".";
 };
 
 function scanForHighStreak() {
