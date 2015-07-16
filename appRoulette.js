@@ -12,22 +12,22 @@ function WinnerOrNot() {
 		else if(computerChoice === 2) {
 			displayUserScore(userStreak);
 			displayHighStreak(highStreak);
-			scanForHighStreak(userStreak, highStreak);
+			displaylaststreak(lastStreak);
 		}
 		else if(computerChoice === 3) {
 			displayUserScore(userStreak);
 			displayHighStreak(highStreak);
-			scanForHighStreak(userStreak, highStreak);
+			displaylaststreak(lastStreak);
 		}
 		else if(computerChoice === 4) {
 			displayUserScore(userStreak);
 			displayHighStreak(highStreak);
-			scanForHighStreak(userStreak, highStreak);
+			displaylaststreak(lastStreak);
 		}
 		else if(computerChoice === 5) {
 			displayUserScore(userStreak);
 			displayHighStreak(highStreak);
-			scanForHighStreak(userStreak, highStreak);
+			displaylaststreak(lastStreak);
 		}
 		else {
 			userStreak--;
