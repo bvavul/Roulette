@@ -1,4 +1,3 @@
-
 var highStreak = 20;
 var computerChoice = 0;
 var userStreak = "";
