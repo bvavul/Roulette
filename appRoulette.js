@@ -46,15 +46,15 @@ var displayUserScore = function() {
 	document.getElementById('paragraph').innerHTML = "Your streak is " + userStreak + ".";
 };
 var displayHighStreak = function() {
-	document.getElementById('paragraph2').innerHTML = "The highscore is " + highStreak + ".";
+	//New code to test on line 50.
+	if(userStreak > highStreak) {
+		document.getElementById('paragraph2').innerHTML = "The highscore is " + highStreak + ".";
+		}
 };
 
 function checkForHighScore() {
 	if(userStreak > highStreak) {
 		highStreak = userStreak;
-	}
-	else {
-		document.getElementById('paragraph3').innerHTML = "The highscore is " + highStreak + ".";
 	}
 }
 
