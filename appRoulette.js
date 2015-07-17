@@ -36,7 +36,7 @@ function WinnerOrNot() {
 		}
 		else {
 			userStreak--;
-			alert("Gooood Morning(Or afternoon. Or night.) You died a horrible, slow, painful death. Please try again. Sadly, your streak was " + userStreak + " wins.");
+			alert("Gooood Morning(Or afternoon. Or night.) You LOST! Please try again. Sadly, your streak was " + userStreak + " wins.");
 			userStreak++;
 			userStreak = 0;
 		}
