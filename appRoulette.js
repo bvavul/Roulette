@@ -11,7 +11,7 @@ function WinnerOrNot() {
 		}
 		else if(computerChoice === 2) {
 			displayUserScore(userStreak);
-			displayHighStreak(highStreak)
+			displayHighStreak(highStreak);
 			checkForhighScore(highStreak);
 		}
 		else if(computerChoice === 3) {
