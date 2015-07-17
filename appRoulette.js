@@ -48,6 +48,9 @@ function checkForHighScore() {
 	if (userStreak > highStreak) {
 		highStreak = userStreak;
 	}
+	else {
+		document.getElementById('paragraph2').inenrHTML = "The highscore is " + highStreak + ".";
+	}
 }
 /*
 LES DO DIS
