@@ -50,10 +50,6 @@ function checkForHighScore() {
 	}
 }
 
-var storeUserStreak = function() {
-	localStorage.setItem("userStreak", userStreak);
-	document.getElementById('paragraph3').innerHTML = localStorage.getItem("userStreak");
-};
 
 /*
 LES DO DIS
