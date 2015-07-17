@@ -1,4 +1,4 @@
-var highStreak = 10;
+var highStreak = 20;
 var computerChoice = 0;
 var userStreak = "";
 function WinnerOrNot() {
@@ -7,51 +7,72 @@ function WinnerOrNot() {
 		if(computerChoice === 1) {
 			displayUserScore(userStreak);
 			displayHighStreak(highStreak);
-			checkForHighScore(highStreak);
+			checkForHighScore(userStreak, highStreak);
+			onehundred(userStreak);
 		}
 		else if(computerChoice === 2) {
 			displayUserScore(userStreak);
 			displayHighStreak(highStreak);
-			checkForhighScore(highStreak);
+			checkForHighScore(userStreak, highStreak);
+			onehundred(userStreak);
 		}
 		else if(computerChoice === 3) {
 			displayUserScore(userStreak);
 			displayHighStreak(highStreak);
-			checkForhighScore(highStreak);
+			checkForHighScore(userStreak, highStreak);
+			onehundred(userStreak);
 		}
 		else if(computerChoice === 4) {
 			displayUserScore(userStreak);
 			displayHighStreak(highStreak);
-			checkForhighScore(highStreak);
+			checkForHighScore(userStreak, highStreak);
+			onehundred(userStreak);
 		}
 		else if(computerChoice === 5) {
 			displayUserScore(userStreak);
 			displayHighStreak(highStreak);
-			checkForhighScore(highStreak);
+			checkForHighScore(userStreak, highStreak);
+			onehundred(userStreak);
 		}
 		else {
 			userStreak--;
-			alert("Gooood Morning(Or afternoon. Or night.) You died a horrible, slow, painful death. Please try again. Sadly, your streak was " + userStreak + " wins.");
+			alert("Gooood Morning(Or afternoon. Or night.) You LOST! Please try again. Sadly, your streak was " + userStreak + " wins.");
 			userStreak++;
 			userStreak = 0;
 		}
-	return;
+return;
 }
 var displayUserScore = function() {
 	document.getElementById('paragraph').innerHTML = "Your streak is " + userStreak + ".";
 };
 var displayHighStreak = function() {
-	document.getElementById('paragraph2').innerHTML = "The highscore is " + highStreak + ".";
+	//New code to test on line 50.
+	if(userStreak > highStreak) {
+		highStreak = userStreak;
+		document.getElementById('paragraph2').innerHTML = "The highscore is " + highStreak + ".";
+	}
+	else {
+		document.getElementById('paragraph2').innerHTML = "The highscore is " + highStreak + ".";
+	}
 };
 
 function checkForHighScore() {
-	if (userStreak > highStreak) {
+	if(userStreak > highStreak) {
 		highStreak = userStreak;
 	}
+}
+
+function onehundred() {
+	if(userStreak > 100) {
+		userStreak = 0;
+		alert("You have reached 100 streak. Good job. You just defied mathematical probability. And I reset your streak to 0. TROOOLLLLLEEEEDDD");
+	}
 	else {
-		document.getElementById('paragraph2').inenrHTML = "The highscore is " + highStreak + ".";
+		checkForHighScore();
 	}
 }
+
+
 /*
 LES DO DIS
  _________
