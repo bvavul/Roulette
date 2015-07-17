@@ -48,8 +48,12 @@ var displayUserScore = function() {
 var displayHighStreak = function() {
 	//New code to test on line 50.
 	if(userStreak > highStreak) {
+		highStreak = userStreak;
 		document.getElementById('paragraph2').innerHTML = "The highscore is " + highStreak + ".";
-		}
+	}
+	else {
+		document.getElementById('paragraph2').innerHTML = "The highscore is " + highStreak + ".";
+	}
 };
 
 function checkForHighScore() {
