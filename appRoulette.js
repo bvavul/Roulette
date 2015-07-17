@@ -1,3 +1,4 @@
+
 var highStreak = 20;
 var computerChoice = 0;
 var userStreak = "";
@@ -49,6 +50,12 @@ function checkForHighScore() {
 		highStreak = userStreak;
 	}
 }
+
+var storeUserStreak = function() {
+	localStorage.setItem("userStreak", userStreak);
+	document.getElementById('paragraph3').innerHTML = localStorage.getItem("userStreak");
+};
+
 /*
 LES DO DIS
  _________
