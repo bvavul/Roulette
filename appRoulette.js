@@ -7,27 +7,32 @@ function WinnerOrNot() {
 		if(computerChoice === 1) {
 			displayUserScore(userStreak);
 			displayHighStreak(highStreak);
-			checkForHighScore();
+			checkForHighScore(userStreak, highStreak);
+			onehundred(userStreak);
 		}
 		else if(computerChoice === 2) {
 			displayUserScore(userStreak);
 			displayHighStreak(highStreak);
-			checkForhighScore();
+			checkForHighScore(userStreak, highStreak);
+			onehundred(userStreak);
 		}
 		else if(computerChoice === 3) {
 			displayUserScore(userStreak);
 			displayHighStreak(highStreak);
-			checkForhighScore();
+			checkForHighScore(userStreak, highStreak);
+			onehundred(userStreak);
 		}
 		else if(computerChoice === 4) {
 			displayUserScore(userStreak);
 			displayHighStreak(highStreak);
-			checkForhighScore();
+			checkForHighScore(userStreak, highStreak);
+			onehundred(userStreak);
 		}
 		else if(computerChoice === 5) {
 			displayUserScore(userStreak);
 			displayHighStreak(highStreak);
-			checkForhighScore();
+			checkForHighScore(userStreak, highStreak);
+			onehundred(userStreak);
 		}
 		else {
 			userStreak--;
