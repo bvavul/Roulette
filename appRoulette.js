@@ -35,7 +35,7 @@ function WinnerOrNot() {
 			userStreak++;
 			userStreak = 0;
 		}
-	return;
+return;
 }
 var displayUserScore = function() {
 	document.getElementById('paragraph').innerHTML = "Your streak is " + userStreak + ".";
